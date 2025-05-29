@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large files
+*.h5
+*.pyd
+*.dll
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# Dataset
+dataset/
+
+# Model files
+*.h5
+*.pkl
+*.model
+*.weights
+
+# Logs
+*.log
+logs/
+
+# Project specific
+uploads/
+*.h5
+*.pkl
+*.model
+*.pyd
+*.dll
+
+# Uploaded files
+!uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db 

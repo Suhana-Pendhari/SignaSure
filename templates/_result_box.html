@@ -1,0 +1,12 @@
+<div class="result-box {% if result == 'Genuine' %}genuine{% elif result == 'Forged' %}forged{% elif result == 'Likely Genuine' %}likely-genuine{% elif result == 'Likely Forged' %}likely-forged{% else %}uncertain{% endif %}" style="display: block;">
+    <h4 class="text-center">
+        <i class="fas {% if result == 'Genuine' or result == 'Likely Genuine' %}fa-check-circle{% elif result == 'Forged' or result == 'Likely Forged' %}fa-times-circle{% else %}fa-question-circle{% endif %}"></i>
+        Result: {{ result }}
+    </h4>
+    <p class="text-center mb-0">Confidence: {{ confidence }}</p>
+    {% if result == 'Uncertain' %}
+    <p class="text-center mt-2 mb-0" style="font-size: 0.9em;">
+        <i class="fas fa-info-circle"></i> The model is not confident enough to make a clear prediction.
+    </p>
+    {% endif %}
+</div> 
