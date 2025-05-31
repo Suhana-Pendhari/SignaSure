@@ -75,13 +75,12 @@ SignaSure/
 The dataset used in this project is not included in the repository due to size limitations. To use this project, you'll need to:
 
 1. Create a `dataset` directory in the project root
-2. Download the dataset from [Google Drive Link] (to be added)
+2. Download the dataset from [https://drive.google.com/drive/folders/1HFMIK5jkLp8WgggUjMAITg1Vx-1tNYxB?usp=drive_link]
 3. Extract the dataset into the `dataset` directory with the following structure:
 ```
 dataset/
 ├── genuine/
 │   ├── original_*.png
-│   └── sample_*.png
 └── forged/
     └── forged_*.png
 ```
